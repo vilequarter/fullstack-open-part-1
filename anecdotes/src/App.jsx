@@ -21,7 +21,6 @@ const App = () => {
     while(newNumber === selected){
       newNumber = (Math.floor(Math.random() * 8));
     }
-    console.log(newNumber);
     setSelected(newNumber);
   }
 
